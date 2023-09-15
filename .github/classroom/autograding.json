@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-10-Transpose-Matrix.cpp",
+      "run": "./a.out",
+      "input": "2 3\r\n9 8 7\r\n6 5 5",
+      "output": "Array\r\n9 8 7\r\n6 5 5\r\nArray Transpose\r\n9 6\r\n8 5\r\n7 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-10-Transpose-Matrix.cpp",
+      "run": "./a.out",
+      "input": "3 6\r\n1 2 3 4 5 6\r\n7 8 9 10 11 12\r\n13 14 15 16 17 18",
+      "output": "Array\r\n1 2 3 4 5 6\r\n7 8 9 10 11 12\r\n13 14 15 16 17 18\r\nArray Transpose\r\n1 7 13\r\n2 8 14\r\n3 9 15\r\n4 10 16\r\n5 11 17\r\n6 12 18",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
